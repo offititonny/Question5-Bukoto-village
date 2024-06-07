@@ -1,0 +1,27 @@
+cd E:\Documents\NetBeansProjects\AlexaandBalexis; "JAVA_HOME=C:\\Program Files\\Java\\jdk-21" cmd /c "\"C:\\Users\\TONNY OS\\Desktop\\NetBeans-21\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Java\\jdk-21\\bin\\java.exe\" -Dexec.mainClass=com.mycompany.alexaandbalexis.NumberOperation -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Users\\TONNY OS\\Desktop\\NetBeans-21\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+Scanning for projects...
+
+-------------------< com.mycompany:AlexaandBalexis >--------------------
+Building AlexaandBalexis 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ AlexaandBalexis ---
+skip non existing resourceDirectory E:\Documents\NetBeansProjects\AlexaandBalexis\src\main\resources
+
+--- compiler:3.11.0:compile (default-compile) @ AlexaandBalexis ---
+Changes detected - recompiling the module! :source
+Compiling 2 source files with javac [debug target 21] to target\classes
+
+--- exec:3.1.0:exec (default-cli) @ AlexaandBalexis ---
+Enter first number: 48
+Enter second number: 18
+Enter third number: 8
+Product	Sum	Maximum
+6912	74	48
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  32.603 s
+Finished at: 2024-06-07T11:11:50+03:00
+------------------------------------------------------------------------
